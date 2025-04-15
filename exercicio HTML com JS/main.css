@@ -1,0 +1,40 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+  
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px; /*arredondamento das bordas*/
+    width: 250px;
+}
+
+button{
+  padding: 4px;
+  margin-top: 8px;
+}
